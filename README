@@ -1,0 +1,10 @@
+#key-value-SQLite
+An key-value database API which base on SQLite.
+
+##Functions
+
+open
+close
+set
+get
+has_key
