@@ -1,10 +1,20 @@
 #key-value-SQLite
 An key-value database API which base on SQLite.
 
-##Functions
+##Class
+ - Class ‘Table’ is the base of all other database model class. It
+provides basic SQL command function.
+ - Class ‘KeyValueTable’ defined a two column table, which can contain
+key-value data.
+ - Class ‘KeyValueDB’ is a shell of KeyValueTable, make all the things
+easy to use.
 
-open
-close
-set
-get
-has_key
+##Usage
+
+from key_value_sqlite import KeyValueDB
+
+db = KeyValueDB('./test.db')
+print db.set('1','one')
+print db.get('1')
+print db.remove('1')
+print db.get('1')
