@@ -1,7 +1,7 @@
 #key-value-SQLite
 An key-value database API which base on SQLite.
 
-##Class
+##Class  
  - Class ‘Table’ is the base of all other database model class. It
 provides basic SQL command function.
  - Class ‘KeyValueTable’ defined a two column table, which can contain
