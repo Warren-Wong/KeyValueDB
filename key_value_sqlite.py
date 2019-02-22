@@ -4,7 +4,7 @@ import sqlite3
 import base64
 import hashlib
 
-class Table(object): 
+class Table(object):   
     def __init__(self, dbpath, table, membersql):
         self.dbpath = dbpath
         self.table = table
